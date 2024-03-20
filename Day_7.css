@@ -1,0 +1,45 @@
+.box1 {
+    border: 1px solid black;
+    padding: 4px;
+    background-color: rgb(0, 34, 56);
+    width: 500px;
+    margin: 4px;
+    color: red;
+    float: left;
+    background: linear-gradient(rgba(100, 233, 45, 0.1), rgba(34, 234, 236, 1.0))
+  }
+  
+  .box2 {
+    border: 1px solid black;
+    padding: 4px;
+    background-color: rgb(0, 34, 56);
+    width: 500px;
+    margin: 4px;
+    color: red;
+    float: left;
+    background: linear-gradient(rgba(168, 78, 78, 0.4), rgba(34, 234, 236, 1.0))
+  }
+  
+  .box3 {
+    border: 1px solid black;
+    padding: 4px;
+    background-color: rgb(0, 34, 56);
+    width: 500px;
+    height: 200px;
+    margin: 4px;
+    color: red;
+    float: left;
+    background: linear-gradient(rgba(107, 181, 18, 0.4), rgba(34, 234, 236, 1.0))
+  }
+  
+  .box3 {
+    border: 1px solid black;
+    padding: 4px;
+    background-color: rgb(0, 34, 56);
+    width: 500px;
+    height: 200px;
+    margin: 4px;
+    color: red;
+    float: left;
+    background: linear-gradient(rgba(107, 181, 18, 0.4), rgb(217, 11, 100))
+  }
