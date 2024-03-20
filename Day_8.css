@@ -7,7 +7,7 @@
 .para1 {
     text-align: center;
     font: bold 60px Helvetica;
-    text-shadow: 2px 2px 3px red;/* [arg1=top, arg2=bottom, arg3=blur] */    
+    text-shadow: 2px 2px 3px red;/* [val1=top, val2=bottom, val3=blur] */    
 }
 
 .para2 {
@@ -15,4 +15,16 @@
     font: bold 60px Helvetica;
     text-shadow: 2px 3px rgba(0, 0, 255, 0.3)
         /* When wanting to add transparency to text shadow */
+}
+
+/*Section2 [Box Shadow Property]*/
+#secBox {
+    width: 600px;
+    height: 200px;
+    /*border: 2px solid black;*/
+    background-color: blue;
+    box-shadow: 10px 10px orange; /* [val1=horizontal val2=vertical] */
+    margin: 20px;
+    /* Making Inner Shadows `inset` is used*/
+/*    box-shadow: inset 0 0 15px black; /* [val1=innercomponent val2=horizontal val3=vertical val4=blurness] */
 }
