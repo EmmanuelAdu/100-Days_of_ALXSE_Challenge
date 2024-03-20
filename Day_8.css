@@ -1,0 +1,18 @@
+#section1 {
+    border: 2px black solid;
+    background-image: url(https://images.unsplash.com/photo-1707343844152-6d33a0bb32c3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    margin: 10px 40px 10px 20px;
+}
+
+.para1 {
+    text-align: center;
+    font: bold 60px Helvetica;
+    text-shadow: 2px 2px 3px red;/* [arg1=top, arg2=bottom, arg3=blur] */    
+}
+
+.para2 {
+    text-align: center;
+    font: bold 60px Helvetica;
+    text-shadow: 2px 3px rgba(0, 0, 255, 0.3)
+        /* When wanting to add transparency to text shadow */
+}
