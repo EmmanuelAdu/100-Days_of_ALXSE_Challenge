@@ -4,3 +4,19 @@ body {
     font-size: 14px;
     font-family: Verdana, Georgia, Serif;
 }
+
+#header {
+    background-color:rgba(237, 191, 138, 0.3);
+    /*No width included for fluid expansion*/
+    height: 70px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#navbar {
+    background-color:rgba(237, 191, 138, 0.3);
+    /*No width included for fluid expansion*/
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+}
