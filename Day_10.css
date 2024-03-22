@@ -1,9 +1,12 @@
+/* ========== LAYOUT SECTION ============ */
 body {
     background-color: rgb(43, 34, 56);
     margin: 0;
     font-size: 14px;
     font-family: Verdana, Georgia, Serif;
 }
+
+/* ========== NAVIGATION SECTION ============ */
 
 #header {
     background-color:rgba(237, 191, 138, 0.3);
@@ -21,6 +24,7 @@ body {
     border-radius: 5px;
 }
 
+/* ========== CONTENT SECTION ============ */
 .maincontent {
     background-color: rgb(201, 207, 220);
     margin-left: 10px;
@@ -43,6 +47,7 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+/* ========== SIDEBAR SECTION ============ */
 .rightbar {
     background-color: rgb(201, 207, 220);
     margin-left: 10px;
@@ -82,6 +87,7 @@ h4 {
     opacity: 0.3;
 }
 
+/*============ FOOTER SECTION =========*/
 /*Added clear both property to ensure the float image does not affect position of footer*/
 #footer {
     background-color: rgba(237, 191, 138, 0.3);
