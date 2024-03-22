@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(43, 34, 56);
+    margin: 0;
+    font-size: 14px;
+    font-family: Verdana, Georgia, Serif;
+}
+
+#header {
+    background-color:rgba(237, 191, 138, 0.3);
+    /*No width included for fluid expansion*/
+    height: 70px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#navbar {
+    background-color:rgba(237, 191, 138, 0.3);
+    /*No width included for fluid expansion*/
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.maincontent {
+    background-color: rgb(201, 207, 220);
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 310px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 150%;
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-size: 150%;
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.rightbar {
+    background-color: rgb(201, 207, 220);
+    margin-left: 10px;
+    margin-top: 0px; /*The top is 0 because the margin for the navbar has 10 and additional margin will cause increase*/
+    margin-bottom: 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 260px;
+    float: right; /*Always know float elements aren't part of the flow of the main element page*/
+    clear: right; /*Added to ensure they align top and bottom for float elements*/
+}
+
+h3 {
+    color: rgb(207, 81, 81);
+}
+
+h4 {
+    color: rgb(134, 81, 207);
+}
+
+.imagebar {
+    margin-left: 10px;
+    margin-top: 0px; /*The top is 0 because the margin for the navbar has 10 and additional margin will cause increase*/
+    margin-bottom: 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    width: 280px;
+    float: right; /*Always know float elements aren't part of the flow of the main element page*/
+    clear: right; /*Added to ensure they align top and bottom for float elements*/
+}
