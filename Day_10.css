@@ -73,4 +73,11 @@ h4 {
     width: 280px;
     float: right; /*Always know float elements aren't part of the flow of the main element page*/
     clear: right; /*Added to ensure they align top and bottom for float elements*/
+    /*Adding opacity and transition to image*/
+    opacity: 1.0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.imagebar:hover {
+    opacity: 0.3;
 }
