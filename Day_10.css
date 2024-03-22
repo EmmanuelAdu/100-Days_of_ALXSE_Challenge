@@ -81,3 +81,13 @@ h4 {
 .imagebar:hover {
     opacity: 0.3;
 }
+
+/*Added clear both property to ensure the float image does not affect position of footer*/
+#footer {
+    background-color: rgba(237, 191, 138, 0.3);
+    height: 70px;
+    border-radius: 5px;
+    margin: 10px;
+    clear: both;
+    border: 3px solid black;
+}
