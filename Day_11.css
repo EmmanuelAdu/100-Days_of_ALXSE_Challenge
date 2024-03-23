@@ -21,9 +21,11 @@ body {
     color: rgb(234, 246, 249);
     font-size: 200%;
     position: relative;
+    margin: 0px;
     top: 50%;
     -webkit-transform: translate(-50%);
-    
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 
