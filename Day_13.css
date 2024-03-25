@@ -1,0 +1,57 @@
+body {
+    margin: 0px;
+}
+
+
+
+/*======================== CONTAINER CONTENTS ======================*/
+#container {
+    width: 968px;
+    margin: 0px auto; /* auto used to center the page */
+}
+
+
+
+/*================ HEADER SECTION  =============================*/
+.header {
+    background-color: #4e574f;
+    height: 75px;
+    width: 964px;
+    border: 2px solid black;
+}
+
+
+
+/*==================== NAVIGATION SECTION =========================*/
+#navbar {
+    background: #000;
+    height: 30px;
+    border: 2px solid black;
+    width: 964px;
+}
+
+
+
+/*================== SIDE BAR SECTION ========================*/
+.sidebar {
+    float: left; /* MAKES THE SIDE BAR TO MOVE TO THE LEFT*/
+    background: #dbc48a;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 100px;
+    height: 900px;
+    border-bottom-left-radius:1em;
+}
+
+
+/*============ MAIN CONTENT SECTION ============*/
+.main {
+    float: left; /*Positions the main content next to the sidebar*/
+    background: #e3881f;
+    height: 900px;
+    width: 862px;
+    border-bottom-right-radius: 1em;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
